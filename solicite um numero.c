@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, soma;
+
+    // Solicita os números ao usuário
+    printf("fala um numero: ");
+    scanf("%d", &num1);
+
+    printf("agora outro numero: ");
+    scanf("%d", &num2);
+
+    // Calcula a soma
+    soma = num1 + num2;
+
+    // Exibe os resultados
+    printf("\nVocê digitou: %d e %d\n", num1, num2);
+    printf("A soma dos dois números é: %d\n", soma);
+
+    return 0;
+}
